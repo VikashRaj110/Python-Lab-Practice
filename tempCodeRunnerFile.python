@@ -1,0 +1,7 @@
+n = int(input("Enter your number: "))
+sq = n ** 2
+
+if str(sq).endswith(str(n)):
+    print("Yes, it is an Automorphic number")
+else:
+    print("No, it is not an Automorphic number")
